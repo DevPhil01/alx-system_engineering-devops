@@ -1,0 +1,2 @@
+#!/bin/bash
+[[ "$TRUEKNOWLEDGE" =~ ^[0-9]+$ ]] && echo $((128 + TRUEKNOWLEDGE)) || echo "128$TRUEKNOWLEDGE"
